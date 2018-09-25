@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link href="../lib/zoom/src/jquery.exzoom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/goodDetail.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/goodDetail.js"></script>
+    <script src="../lib/zoom/src/jquery.exzoom.js"></script>
+    <script src="../js/footer.js"></script>
+    <style>
+    .classify {
+        margin-left: 10px;
+        padding-top: 35px;
+        font-size: 12px;
+    }
+
+    .mySearch input,
+    .input-group-addon {
+        border-color: red;
+    }
+
+    .footerList dd a {
+        line-height: 30px;
+        font-size: 12px;
+        color: #000;
+    }
+
+    .footerIfo p {
+        font-size: 14px;
+        color: #787878;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .footerIfo p img {
+        margin-right: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="goodDetail">
+        <div id="headerTop">
+            <div class="headerTop container">
+                <span>欢迎来到邦购网，全场实付满99元包邮</span>
+                <div class="headerTopRight fr">
+                    <div class="myLogin btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle">登陆</button>
+                        <!-- 隐藏元素 -->
+                        <ul class="myLoginIfo dropdown-menu">
+                            <li>QQ账户登陆</li>
+                            <li>支付宝登陆</li>
+                            <li>微信账户登陆</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">注册</button>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">会员中心</button>
+                    <div class="btnMyApp btn-group">
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">下载APP<span class="caret"></span>
+                        </button>
+                        <!-- 隐藏元素 -->
+                        <ul class="myAppIfo dropdown-menu">
+                            <img src="http://s.banggo.com/pub1/bgweb/default/images/mbshop_pic_mobile.png " alt="" width="100px" height="100px">
+                        </ul>
+                    </div>
+                    <div class="btnMyBang btn-group">
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">我的邦购<span class="caret"></span>
+                        </button>
+                        <!-- 隐藏元素 -->
+                        <ul class="btnMyBangIfo dropdown-menu">
+                            <li>我的订单</li>
+                            <li>我的积分</li>
+                            <li>我的点赞</li>
+                            <li>收货地址</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">微博</button>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">微信</button>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="nav container">
+                <div class="navTop clearfix">
+                    <div class="logo fl">
+                        <a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/newImg/mbshop_new_logo2.png" alt=""></a>
+                    </div>
+                    <div class="mySearch input-group fl">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-search" style="margin: 0 10px 0 5px;"></i>搜索</span>
+                    </div>
+                    <div class="classify fl">
+                        <a href="#"><span>衬衫</span></a>
+                        <a href="#"><span class="active">夹克</span></a>
+                        <a href="#"><span>休闲裤</span></a>
+                        <a href="#"><span>休闲鞋</span></a>
+                        <a href="#"><span class="active">羽绒服</span></a>
+                    </div>
+                    <span class="shoppingPag fr"><i class="glyphicon glyphicon-lock"></i>购物袋<span class='shoppingPagNum'> 0 </span>件</span>
+                </div>
+                <div class="navBottom">
+                    <div class="navBottomLeft fl">
+                        <a href="#" data-idx='1'>首页</a>
+                        <a href="#" data-idx='2'>热销分类</a>
+                        <a href="#" data-idx='3'>男装</a>
+                        <a href="#" data-idx='4'>女装</a>
+                        <a href="#" data-idx='5'>儿童</a>
+                        <a href="#" data-idx='6'>鞋履</a>
+                        <a href="#" data-idx='7'>箱包</a>
+                        <a href="#" data-idx='8'>配饰</a>
+                    </div>
+                    <div class="navBottomRight fr">
+                        <a href="#"><img src="http://img.banggo.com/sources/cms/P11/lqzx-pc.png" alt=""></a>
+                        <a href="#" style="margin-left:30px;"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80403xrzx.jpg" alt=""></a>
+                        <a href="#"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/zhongxin.png" alt=""></a>
+                        <a href="#"><img src="http://img.banggo.com/sources/cms/20151111/mobilegai.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mainGood">
+            <div class="maingood container">
+                <p><a href="#">所有商品</a> >
+                    <a href="#">男装</a> >
+                    <a href="#">外套</a> >
+                    <a href="#">夹克</a></p>
+                <div class="goodLeft fl">
+                    <div class="exzoom" id="exzoom">
+                        <!--大图区域-->
+                        <div class="exzoom_img_box">
+                            <ul class='exzoom_img_ul'>
+                            </ul>
+                        </div>
+                        <!--缩略图导航-->
+                        <div class="exzoom_nav"></div>
+                        <!--控制按钮-->
+                        <p class="exzoom_btn">
+                            <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a>
+                            <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a>
+                        </p>
+                    </div>
+                    <p style="margin-top: 120px">商品编码：519795 <a href="#" style="margin:0 10px 0 10px"><i class="glyphicon glyphicon-th"></i>分享</a><a href="#">💗点赞</a></p>
+                </div>
+                <div class="goodRight fl">
+                    <p class='title'>1234</p>
+                    <div class="price">
+                        <p>售价：<span class="currentPrice">79</span>掉价牌：
+                            <del><span class="originPrice">369</span></del><span class="discount fr"></span></p>
+                        <p>本品不参加vip，vip折扣<span class="role fr"><a href="#">会员规则</a></span></p>
+                        <p><span>促销</span><span> · 2件68折</span></p>
+                    </div>
+                    <div class="sellNum">
+                        <span class="totalSell">销量</span><span>4</span>
+                        <span class="totalComment">累计评价</span><span>17</span>
+                        <span class="totalScode">送邦购积分</span><span>220</span>
+                    </div>
+                    <div class="color clearfix">
+                        <p>颜色：<span>请选择颜色</span></p>
+                        <ul>
+                            <li>白色</li>
+                            <li>红色</li>
+                            <li>蓝色</li>
+                            <li>黑色</li>
+                            <li>灰色</li>
+                        </ul>
+                    </div>
+                    <div class="size clearfix">
+                        <p>尺码：<span>请选择尺码</span></p>
+                        <ul>
+                            <li>M:170/92A</li>
+                            <li>L:175/96AXL</li>
+                            <li>XL:180/100A</li>
+                            <li>S:165/88A</li>
+                            <li>XXL:185/104B</li>
+                        </ul>
+                    </div>
+                    <div class="buyNum">
+                        <p>购买数量：<span class="jian">-</span>
+                            <input type="text" value="1" oninput="value=value.replace(/[^\d]/g,'')"><span class="jia">+</span></p>
+                        <p class="addCart" style="">加入购物车</p>
+                    </div>
+                    <p>浏览更多：<a href="#">夹克</a></p>
+                    <p class="tip">温馨提示：<span><em></em>此商品不可使用邦购红包此商品不可使用积分14天退换</span><span><em></em>此商品不可使用积分</span><span style="margin-left:71px;"><em></em>14天退换</span></p>
+                </div>
+            </div>
+            <div class="showHistory clearfix container">
+                <div class="goodsHistor fl">
+                    <h6>最近浏览的商品</h6>
+                    <ul class="showGood">
+                        
+                    </ul>
+                </div>
+                <div class="goodsDetail fl">
+                    <h5><a href="#">商品详情</a><a href="#">商品评价(4)</a><a href="#">购买须知</a></h5>
+                </div>
+            </div>
+        </div>
+        <div id="footerTop">
+            <div class="footer container">
+                <table>
+                    <tr>
+                        <td><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare01.png" alt=""></a></td>
+                        <td><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare02.png" alt=""></a></td>
+                        <td><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare03.png" alt=""></a></td>
+                        <td><a href="#"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/hezuo.jpg" width="355px" alt=""></a>
+                            <ul>
+                                <li><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexonline.png"alt=""><span>在线客服</span></a></li>
+                                <li><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexopinion.png" alt=""><span>意见反馈</span></a></li>
+                                <li><a href="#"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexsurvey.png" alt=""><span>问卷调查</span></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footerBottom">
+            <div class="footerList container clearfix">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="#">注册新用户</a></dd>
+                    <dd><a href="#">用户协议</a></dd>
+                    <dd><a href="#">找回密码</a></dd>
+                </dl>
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd><a href="#">红包使用说明</a></dd>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">订单状态</a></dd>
+                    <dd><a href="#">邦购币绑定与使用</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送方式</dt>
+                    <dd><a href="#">配送范围</a></dd>
+                    <dd><a href="#">订单拆分</a></dd>
+                    <dd><a href="#">商品验货与签收</a></dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd><a href="#">发票制度</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换货政策</a></dd>
+                    <dd><a href="#">退换办理流程</a></dd>
+                    <dd><a href="#">退款说明</a></dd>
+                </dl>
+                <dl>
+                    <dt>联系方式</dt>
+                    <dd><a href="#">在线客服</a></dd>
+                    <dd><a href="#">咨询电话4008219988</a></dd>
+                </dl>
+            </div>
+            <div class="footerIfo container">
+                <p>CopyRight © 2000-2018, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com <a href="#">沪ICP备05033127号</a>|沪ICP证B2-20150114 021-38119999</p>
+                <p><a href="#"><img src="http://s.banggo.com/pub1/bgweb/default/images/lz_beian_h40.png" alt=""></a><a href="#"><img src="http://s.banggo.com/pub1/bgweb/default/images/lz_shgs_h40.png" alt=""></a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $("#exzoom").exzoom();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 第二步 */
+.secondStep {
+  display: none;
+  height: 560px; }
+  .secondStep .secondStepLeft {
+    width: 700px;
+    float: left;
+    padding-left: 30px; }
+    .secondStep .secondStepLeft label {
+      font-size: 16px;
+      color: #666666; }
+      .secondStep .secondStepLeft label span {
+        margin-left: 10px;
+        font-size: 12px;
+        color: #999999; }
+      .secondStep .secondStepLeft label input {
+        width: 250px;
+        height: 30px;
+        border: 1px solid #ababab;
+        text-indent: 3px;
+        background: #fff; }
+    .secondStep .secondStepLeft div {
+      margin-left: 66px;
+      margin-top: 25px; }
+      .secondStep .secondStepLeft div .errorPassword, .secondStep .secondStepLeft div .errorPassword2, .secondStep .secondStepLeft div .errorCdKey {
+        margin: 0 0 0 80px;
+        opacity: 0; }
+    .secondStep .secondStepLeft .inviterPhone {
+      margin-left: 0; }
+  .secondStep .agreeRegister {
+    width: 214px;
+    height: 39px;
+    background: url("../img/register/buttons.png") no-repeat 0 -82px;
+    margin: 40px 0 10px 142px;
+    cursor: pointer; }
+  .secondStep .agreeRegister:hover {
+    background-position: 0 -123px; }

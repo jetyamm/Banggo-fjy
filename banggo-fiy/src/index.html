@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="lib/jQuery-banner/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="lib/jQuery-banner/css/default.css">
+    <link rel="stylesheet" type="text/css" href="lib/jQuery-banner/css/pgwslideshow.css">
+    <!-- <script src="js/require.js" data-main="js/main.js"></script> -->
+   
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/mainContent.js"></script>
+    <script type="text/javascript" src="lib/jQuery-banner/js/pgwslideshow.js"></script>
+    <script src="js/banner.js"></script>
+    <style>
+        .classify {
+            margin-left: 10px;
+            padding-top: 35px;
+            font-size: 12px;
+        }
+
+        .mySearch input,
+        .input-group-addon {
+            border-color: red;
+        }
+
+        .footerList dd a {
+            line-height: 30px;
+            font-size: 12px;
+            color: html/goodsList.html000;
+        }
+        .footerIfo p{
+        	font-size: 14px;
+        	color:html/goodsList.html787878;	
+        	line-height: 54px;
+        	text-align: center;
+        }
+        .footerIfo p img{
+        	margin-right: 10px;	
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fjy-homepge">
+        <a href="javascript:void(0)" class="toTop"></a>
+        <a href="html/login.html" class="cusService"></a>
+        <div id="header">
+            <div class="header container">
+                <a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/dxr18pc-09814-1.jpg" alt=""></a>
+            </div>
+        </div>
+        <div id="headerTop">
+            <div class="headerTop container">
+                <span>欢迎来到邦购网，全场实付满99元包邮</span>
+                <div class="headerTopRight fr">
+                    <div class="myLogin btn-group">
+                        <button type="button" class="login btn btn-default btn-sm dropdown-toggle">登陆</button>
+                        <!-- 隐藏元素 -->
+                        <ul class="myLoginIfo dropdown-menu">
+                            <li>QQ账户登陆</li>
+                            <li>支付宝登陆</li>
+                            <li>微信账户登陆</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="register btn btn-default btn-sm dropdown-toggle">注册</button>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">会员中心</button>
+                    <div class="btnMyApp btn-group">
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">下载APP<span class="caret"></span>
+                        </button>
+                        <!-- 隐藏元素 -->
+                        <ul class="myAppIfo dropdown-menu">
+                            <img src="http://s.banggo.com/pub1/bgweb/default/images/mbshop_pic_mobile.png " alt="" width="100px" height="100px">
+                        </ul>
+                    </div>
+                    <div class="btnMyBang btn-group">
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">我的邦购<span class="caret"></span>
+                        </button>
+                        <!-- 隐藏元素 -->
+                        <ul class="btnMyBangIfo dropdown-menu">
+                            <li>我的订单</li>
+                            <li>我的积分</li>
+                            <li>我的点赞</li>
+                            <li>收货地址</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">微博</button>
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle">微信</button>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="nav container">
+                <div class="navTop clearfix">
+                    <div class="logo fl">
+                        <a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/newImg/mbshop_new_logo2.png" alt=""></a>
+                    </div>
+                    <div class="mySearch input-group fl">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-search" style="margin: 0 10px 0 5px;"></i>搜索</span>
+                    </div>
+                    <div class="classify fl">
+                        <a href="html/goodsList.html"><span>衬衫</span></a>
+                        <a href="html/goodsList.html"><span class="active">夹克</span></a>
+                        <a href="html/goodsList.html"><span>休闲裤</span></a>
+                        <a href="html/goodsList.html"><span>休闲鞋</span></a>
+                        <a href="html/goodsList.html"><span class="active">羽绒服</span></a>
+                    </div>
+                    <span class="shoppingPag fr"><i class="glyphicon glyphicon-lock"></i>购物袋<span class='shoppingPagNum'> 0 </span>件</span>
+                </div>
+                <div class="navBottom">
+                    <div class="navBottomLeft fl">
+                        <a href="html/goodsList.html" data-idx='1'>首页</a>
+                        <a href="html/goodsList.html" data-idx='2'>热销分类</a>
+                        <a href="html/goodsList.html" data-idx='3'>男装</a>
+                        <a href="html/goodsList.html" data-idx='4'>女装</a>
+                        <a href="html/goodsList.html" data-idx='5'>儿童</a>
+                        <a href="html/goodsList.html" data-idx='6'>鞋履</a>
+                        <a href="html/goodsList.html" data-idx='7'>箱包</a>
+                        <a href="html/goodsList.html" data-idx='8'>配饰</a>
+                    </div>
+                    <div class="navBottomRight fr">
+                        <a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/P11/lqzx-pc.png" alt=""></a>
+                        <a href="html/goodsList.html" style="margin-left:30px;"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80403xrzx.jpg" alt=""></a>
+                        <a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/zhongxin.png" alt=""></a>
+                        <a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/20151111/mobilegai.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="banner jq22-content bgcolor-3">
+                <ul class="pgwSlideshow">
+                    <li><img src="img/pc_180913lb_01.jpg" alt=""></li>
+                    <li><img src="img/pc_180913lb_02.jpg" alt=""></li>
+                    <li><img src="img/pc_180913lb_03.jpg" alt=""></li>
+                    <li><img src="img/pc_180913lb_04.jpg" alt=""></li>
+                    <li><img src="img/pc_180913lb_05.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="main container">
+            	<div class="remen">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319rrr_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180903sy_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180903sy_02.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/dxr18PC-0913-1.jpg" alt=""></a>
+            	</div>
+            	<div class="jingxuan">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/2018jx_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_04.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_05.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_06.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_07.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_04.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_05.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_06.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180908sy_07.jpg" alt=""></a>
+            	</div>
+            	<div class="todayHot">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319jrtm.jpg" alt=""></a>
+            	</div>
+            	<div class="manWear">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319bdh_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_07.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_08.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_09.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_10.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319gsdh_06.jpg" alt=""></a>
+            	</div>
+            	<div class="womenWear">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319gsdh_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_07.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_08.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_09.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/pc_180803lc_10.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319gsdh_06.jpg" alt=""></a>
+            	</div>
+            	<div class="childWear">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319tdh_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319tdh_02.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319tdh_03.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319tdh_04.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319tdh_05.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319gsdh_06.jpg" alt=""></a>
+            	</div>
+            	<div class="shoeBag">
+            		<a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319xbb_01.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/80319xbb_02.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180823lc_14.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180823lc_15.jpg" alt=""></a><a href="html/goodsList.html"><img src="img/pc_180823lc_16.jpg" alt=""></a><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/80319gsdh_06.jpg" alt=""></a>
+            	</div>
+            </div>
+        </div>
+        <div id="footerTop">
+            <div class="footer container">
+                <table>
+                    <tr>
+                        <td><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare01.png" alt=""></a></td>
+                        <td><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare02.png" alt=""></a></td>
+                        <td><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/zyshare03.png" alt=""></a></td>
+                        <td><a href="html/goodsList.html"><img src="http://img.banggo.com/sources/cms/banggo2017/PC/hezuo.jpg" width="355px" alt=""></a>
+                            <ul>
+                                <li><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexonline.png"alt=""><span>在线客服</span></a></li>
+                                <li><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexopinion.png" alt=""><span>意见反馈</span></a></li>
+                                <li><a href="html/goodsList.html"><img src="http://s.banggo.com/pub7/images/mbshop/20150720/indexsurvey.png" alt=""><span>问卷调查</span></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footerBottom">
+	        <div class="footerList container clearfix">
+	            <dl>
+	                <dt>新手指南</dt>
+	                <dd><a href="html/goodsList.html">注册新用户</a></dd>
+	                <dd><a href="html/goodsList.html">用户协议</a></dd>
+	                <dd><a href="html/goodsList.html">找回密码</a></dd>
+	            </dl>
+	            <dl>
+	                <dt>购物指南</dt>
+	                <dd><a href="html/goodsList.html">红包使用说明</a></dd>
+	                <dd><a href="html/goodsList.html">购物流程</a></dd>
+	                <dd><a href="html/goodsList.html">订单状态</a></dd>
+	                <dd><a href="html/goodsList.html">邦购币绑定与使用</a></dd>
+	            </dl>
+	            <dl>
+	                <dt>配送方式</dt>
+	                <dd><a href="html/goodsList.html">配送范围</a></dd>
+	                <dd><a href="html/goodsList.html">订单拆分</a></dd>
+	                <dd><a href="html/goodsList.html">商品验货与签收</a></dd>
+	            </dl>
+	            <dl>
+	                <dt>支付方式</dt>
+	                <dd><a href="html/goodsList.html">发票制度</a></dd>
+	                <dd><a href="html/goodsList.html">支付方式</a></dd>
+	            </dl>
+	            <dl>
+	                <dt>售后服务</dt>
+	                <dd><a href="html/goodsList.html">退换货政策</a></dd>
+	                <dd><a href="html/goodsList.html">退换办理流程</a></dd>
+	                <dd><a href="html/goodsList.html">退款说明</a></dd>
+	            </dl>
+	            <dl>
+	                <dt>联系方式</dt>
+	                <dd><a href="html/goodsList.html">在线客服</a></dd>
+	                <dd><a href="html/goodsList.html">咨询电话4008219988</a></dd>
+	            </dl>
+	        </div>
+	        <div class="footerIfo container">
+	        	<p>CopyRight © 2000-2018, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com <a href="html/goodsList.html">沪ICP备05033127号</a>|沪ICP证B2-20150114 021-38119999</p>
+	        	<p><a href="html/goodsList.html"><img src="http://s.banggo.com/pub1/bgweb/default/images/lz_beian_h40.png" alt=""></a><a href="html/goodsList.html"><img src="http://s.banggo.com/pub1/bgweb/default/images/lz_shgs_h40.png" alt=""></a></p>
+	        </div>
+        </div>
+    </div>
+</body>
+
+</html>

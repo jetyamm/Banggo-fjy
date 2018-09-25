@@ -1,0 +1,117 @@
+.mainLonin{
+	.loginRight{
+		width: 340px;
+		span{
+			display: inline-block;
+		}
+		.btnTop{
+			margin: 0;
+			span{
+				width: 113.3px;
+				height: 34px;
+				border: 1px solid #ccc;
+				text-align: center;
+				line-height: 34px;
+				cursor: pointer;
+			}
+			span:first-child{
+				border-top: 2px solid red;
+			}
+		}
+		.loginRightButtom{
+			height: 442px;
+			border: 1px solid #ccc;
+			border-top: none;
+			padding: 30px 20px 12px 12px;
+			input{
+				height: 30px;
+				width: 230px;
+				border:1px solid #ccc;
+			}
+			.loginTip{
+				margin: 0 0 0 70px;
+			}
+			#checkCode{
+				height: 30px;
+				width: 60px;
+			}
+			.password{
+				padding:10px 0;
+			}
+			.check{
+				text-align: center;
+				margin: 20px 0;
+				input{
+					width: 13px;
+					height: 13px;
+					margin: 3px 3px 3px 4px;
+				}
+			}
+			.code{
+				display: inline-block;
+				width: 110px;
+				border: 1px solid #ccc;
+				background:#eeeeee;
+				text-align: center;
+				letter-spacing: 5px;
+				margin: 0 5px;
+				line-height: 28px;
+			}
+			.codeSwitch{
+				cursor: pointer;
+				line-height: 30px;
+			}
+			.loginRow{
+				text-align: center;
+				.loginBtn{
+					display: inline-block;
+					width: 104px;
+					height: 33px;
+					background: url('../img/register/buttons.png') no-repeat;
+				}
+				.loginBtn:hover{
+					background-position: 0 -42px;
+				}
+			}
+			table td{
+				width: 102px;
+				height: 30px;
+				margin: 1px;
+				border: 1px solid #ccc;
+				text-align: center;
+				margin: 10px;
+				a{
+					display: inline-block;
+					width: 102px;
+					height: 30px;
+					line-height: 30px;
+				}
+			}
+			.register{
+				line-height: 27px;
+				width: 84px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				text-align: center;
+				background: #eaeaea;
+				cursor: pointer;
+			}
+			.register:hover{
+				box-shadow: 0px 0px 10px 1px blue;
+			}
+			.qq{
+
+				background: url('../img/login/icon_login.png') no-repeat 0 -5px;;
+			}
+			.zhifubao{
+				background: url('../img/login/icon_login.png') no-repeat 0 -55px;;
+			}
+			.weixin{
+				background: url('../img/login/icon_login.png') no-repeat 0 -102px;;
+			}
+		}
+	}
+}
+.registerBottom{
+	text-align: center;
+}

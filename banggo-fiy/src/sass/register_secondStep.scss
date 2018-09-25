@@ -1,0 +1,49 @@
+/* 第二步 */
+.secondStep {
+    display: none;
+    height: 560px;
+    .secondStepLeft {
+        width: 700px;
+        float: left;
+        padding-left: 30px;
+        label {
+        	
+            font-size: 16px;
+            color: #666666;
+            span {
+            	margin-left: 10px;
+                font-size: 12px;
+                color: #999999;
+            }
+            input {
+                width: 250px;
+                height: 30px;
+                border: 1px solid #ababab;
+                text-indent: 3px;
+                background: #fff;
+            }
+        }
+        div{
+        	margin-left:66px;
+        	margin-top: 25px;
+        	.errorPassword,.errorPassword2,.errorCdKey{
+        		margin: 0 0 0 80px;
+        		opacity: 0;
+        	}
+        }
+        .inviterPhone{
+        	margin-left: 0;
+        }
+
+    }
+    .agreeRegister{
+    	width: 214px;
+		height: 39px;
+		background: url('../img/register/buttons.png') no-repeat 0 -82px;
+		margin: 40px 0 10px 142px;
+		cursor: pointer;
+    }
+    .agreeRegister:hover{
+        background-position: 0 -123px;
+    }
+}

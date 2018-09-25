@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.mainNavlist {
+  height: 202px;
+  border: 1px solid #cccccc;
+  margin: 10px 0 15px 0; }
+  .mainNavlist p {
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 15px;
+    margin: 0; }
+    .mainNavlist p button {
+      height: 26px;
+      width: 92px;
+      border-radius: 4px;
+      font-size: 12px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #ccc;
+      position: relative; }
+      .mainNavlist p button i {
+        float: right;
+        padding-right: 4px;
+        color: #999999; }
+    .mainNavlist p span {
+      width: 70px;
+      display: inline-block;
+      border-right: 1px solid #ccc;
+      text-align: center;
+      cursor: Default; }
+    .mainNavlist p a {
+      display: inline-block;
+      margin-left: 20px; }
+    .mainNavlist p input {
+      width: 45px;
+      border: 1px solid #ccc; }
+    .mainNavlist p .occasion {
+      position: absolute;
+      left: -75px;
+      top: 24px;
+      background: #fff;
+      width: 958px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 1px 2px 1px;
+      z-index: 2;
+      display: none; }
+      .mainNavlist p .occasion li {
+        width: 90px;
+        float: left;
+        margin: 5px;
+        line-height: 25px;
+        border-radius: 5px; }
+      .mainNavlist p .occasion .allOccasion {
+        float: right; }
+
+.mainGoods .goodsTop {
+  height: 40px;
+  line-height: 40px;
+  background: #f0f0f0;
+  text-align: center; }
+  .mainGoods .goodsTop .sort span {
+    display: inline-block;
+    width: 78px;
+    border-right: 1px solid #fff; }
+  .mainGoods .goodsTop label {
+    margin: 0 5px 0 10px; }
+  .mainGoods .goodsTop input {
+    margin: 0; }
+
+.mainGoods .goodslist ul {
+  overflow: hidden; }
+  .mainGoods .goodslist ul li {
+    height: 420px;
+    width: 230px;
+    margin: 14px 5px;
+    float: left; }
+    .mainGoods .goodslist ul li img {
+      width: 228px;
+      height: 315px; }
+    .mainGoods .goodslist ul li .smallImg {
+      width: 28px;
+      height: 28px;
+      display: block;
+      float: left;
+      border: 1px solid #ccc;
+      margin-right: 5px; }
+    .mainGoods .goodslist ul li .price span:before {
+      content: '￥'; }

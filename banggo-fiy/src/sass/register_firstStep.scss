@@ -1,0 +1,83 @@
+.register{
+	.active a{
+		width: 160px;
+		background: #6e6e6e;
+		color: #fff;
+		text-align: center;
+		word-spacing: 3px;
+	}
+	.firstStep{
+		border: 1px solid #ccc;
+		margin-top: 10px;
+		padding-left: 30px;
+		padding-top:20px;
+		line-height: 30px;
+		font-size: 16px;
+		span{
+			font-size: 12px;
+
+		}
+		input{
+			width: 250px;
+			height: 30px;
+			border: 1px solid #ababab;
+			text-indent:3px;
+		}
+		label{
+			margin-right: 10px;	
+		}
+
+		.firstStepLeft{
+			width: 705px;
+			float: left;
+
+			#checkCode{
+				width: 130px;
+			}
+			.randomCode{
+				display: inline-block;
+				letter-spacing: 5px;
+				background: #f8f8f8;
+				width: 115px;
+				text-align: center;
+			}
+			.updateCode{
+				cursor: pointer;
+			}
+			.sendCode{
+				width: 152px;
+				height: 32px;
+				background: url('../img/register/buttons.png') no-repeat -225px -168px;
+				margin-left: 65px;
+				cursor: pointer;
+			}
+			.errorUsername,.errorPhone{
+				margin-left: 80px;
+				color: red;
+				font-size: 12px;
+				opacity:0;
+			}
+			.sendCode:hover{
+				background-position: -225px -210px;
+			}
+		}
+		.firstStepRight{
+			width: 220px;
+			float: right;
+		}
+		.userTip{
+			width: 300px;
+			font-size: 12px;
+			line-height: 20px;
+			margin: 10px 64px 0 0;
+		}
+		.usernameP1{
+			label{
+				margin-top: 15px;
+			}
+		}
+	}
+	.registerBottom{
+		text-align:center;
+	}
+}

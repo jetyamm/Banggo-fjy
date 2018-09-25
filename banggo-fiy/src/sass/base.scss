@@ -1,0 +1,179 @@
+/*(1)清除默认样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul,li,ol{ list-style:none; }
+select, input { vertical-align:middle;}
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+a {text-decoration:none; }
+
+/*公共类*/
+.Mycontainer{
+    width: 984px;
+    margin: 0 auto;
+}
+.fjy-homepge{
+    background: #fff ;
+    position: relative;
+    .toTop{
+        display: none;
+        width: 70px;
+        height: 100px;
+        background: url('../img/Veo_mbshop_spirit_pic.png') no-repeat 0 -1050px; 
+        position: fixed;
+        bottom: 90px;
+        right: 10px;
+        z-index:99;
+    }
+    .cusService{
+        display: block;
+        width: 70px;
+        height: 50px;
+        background: url('../img/Veo_mbshop_spirit_pic.png') no-repeat 0 -1000px; 
+        position: fixed;
+        bottom: 30px;
+        right: 10px;
+        z-index:99;
+    }
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.ac {
+    text-align:center;
+}
+.hide {
+    display:none;
+}
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+
+/*头部*/
+#headerTop{
+    background: #fff;
+    height: 30px;
+    span{
+        font-size: 12px;
+        color: #999999;
+    }
+    .headerTopRight{
+        button{
+            border:none;
+            outline: none;
+        }
+        .btnMyBangIfo,.myLoginIfo{
+            margin:0;
+            width: 20px;
+        }
+    }
+}
+/* 导航 */
+.nav{
+    .navTop{
+        border-top: 1px solid #666;
+        .mySearch{
+            width: 380px;
+            margin-top: 27px;
+
+            input{
+                width: 350px;
+                border: 1px solid red;
+            }
+            span{
+                cursor: pointer;
+            }
+        }
+        .classify a{
+            color: #666;
+            padding: 0 10px;
+            border-right: 1px solid #ccc;
+            &:nth-child(2),&:last-child{color:red;border:none;}
+
+
+        }
+        .shoppingPag{
+            cursor: pointer;
+            margin-top: 30px;
+            font-size:12px;
+            .shoppingPagNum{
+                color: red;
+            }
+            i{  
+                font-size:18px;
+                margin-right:10px;
+            }
+
+        }
+    }
+
+    .navBottom{
+        margin-top:10px;
+        height: 50px;
+        background: #fff;
+        .navBottomLeft{
+            position: relative; 
+            width: 600px;
+            font-size: 14px;
+            line-height: 30px;
+            padding-top: 20px;
+
+            a{  
+                margin-left: 30px;
+                color:#000;
+            }
+        }
+    }
+}
+/* 尾部 */
+#footerTop{
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: 0 40px 0 #f7f7f7;
+    .footer{
+        padding-top: 53px;
+        padding-bottom: 40px;
+        table {
+            border: 2px solid #dcdcdc;
+            tr td{
+                border-right: 2px solid #dcdcdc;
+                &:last-child{border:none 0;}
+                ul li{
+                    height: 92px;
+                    float:left;
+                    span{
+                        display:block;
+                        text-align:center;
+                    }
+                    img{
+                        margin: 14px 39px 8px 39px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#footerBottom{
+    .footerList {
+        border-bottom: 3px solid #999999;
+        dl {
+            float: left;
+            margin: 15px 0 15px 130px;
+            text-align: center;
+            &:first-child {
+                margin-left: 10px;
+            }
+            dt {
+                height: 40px;
+                font-size: 12px;
+                font-weight: 999;
+            }
+        }
+    }
+
+}

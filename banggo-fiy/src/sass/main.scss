@@ -1,0 +1,43 @@
+#main{
+	background: #f7f7f7;
+	ul{
+		overflow: hidden;
+		li{
+			float: left;
+			width: 230px;
+			height: 330px;
+			margin-right: 8px;
+			font-size: 14px;
+			img{
+				width: 230px;
+				height: 230px;
+			}
+
+			.price span:before{
+				content: '￥';
+			}
+			.special_img{
+				width: 472px;
+				height: 325px;
+			}
+			.discount{
+				width: 40px;
+				height: 20px;
+				display: inline-block;
+				border: 1px solid #f8584f;
+				color: #f95872;
+				background: #fdedec;
+				text-align: center;
+				margin-right: 5px;
+			}
+			p{
+				margin: 10px 0;
+			}
+		}
+		.special_li{
+			width: 472px;
+			height: 325px;
+			margin-bottom:5px;
+		}
+	}
+}

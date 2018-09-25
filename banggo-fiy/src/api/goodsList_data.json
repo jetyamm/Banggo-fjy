@@ -1,0 +1,116 @@
+{	
+	"goodslist":[{
+		"goods":"todayHot",
+		"content":[{
+			"goodId":"G0001",
+			"page":"1",
+			"url":"img/goodsList/245451_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季新品】男简洁连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"123.3",
+			"discount": "2.3折",
+			"imgIntroduction":["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0002",
+			"page":"1",
+			"url":"img/goodsList/602082_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季新品】",
+			"originPrice":"239.00",
+			"currentPrice":"185.9",
+			"discount": "2.2折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0003",
+			"page":"1",
+			"url":"img/goodsList/661132_00.jpg",
+			"title":"METERSBONWE",
+			"production":"男简洁连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"111.0",
+			"discount": "1.3折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0004",
+			"page":"1",
+			"url":"img/goodsList/661196_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季新品】连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"118.9",
+			"discount": "5.7折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg"]
+		},{
+			"goodId":"G0005",
+			"page":"1",
+			"url":"img/goodsList/A03838_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"28.9",
+			"discount": "1折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg"]
+		},{
+			"goodId":"G0006",
+			"page":"2",
+			"url":"img/goodsList/245451_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季新品】男简洁连帽",
+			"originPrice":"239.00",
+			"currentPrice":"357.9",
+			"discount": "0.8折",
+			"imgIntroduction":["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0007",
+			"page":"2",
+			"url":"img/goodsList/602082_00.jpg",
+			"title":"METERSBONWE",
+			"production":"水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"337",
+			"discount": "8折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0008",
+			"page":"2",
+			"url":"img/goodsList/661132_00.jpg",
+			"title":"METERSBONWE",
+			"production":"简洁连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"59.9",
+			"discount": "8.8折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0009",
+			"page":"2",
+			"url":"img/goodsList/661196_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"199.9",
+			"discount": "1.5折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_91_00.jpg"]
+		},{
+			"goodId":"G0010",
+			"page":"2",
+			"url":"img/goodsList/A03838_00.jpg",
+			"title":"METERSBONWE",
+			"production":"【秋季新品】男简洁连帽水洗夹",
+			"originPrice":"239.00",
+			"currentPrice":"238.9",
+			"discount": "2.3折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg"]
+		},{
+			"goodId":"G0011",
+			"page":"3",
+			"url":"img/goodsList/A03838_00.jpg",
+			"title":"METERSBONWE",
+			"production":"秋季新品",
+			"originPrice":"239.00",
+			"currentPrice":"238.9",
+			"discount": "2.3折",
+			"imgIntroduction": ["img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg","img/goodsList/734003_30_00.jpg","img/goodsList/734003_90_00.jpg","img/goodsList/734003_91_00.jpg"]
+		}]
+	}]
+}
